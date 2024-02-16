@@ -15,7 +15,8 @@ Header Area Style
 }
 
 .header-area.header-style-two .top-header-area {
-  background-color: var(--heading-color);
+  /* background-color: var(--heading-color); */
+  background-color: red;
 }
 
 .header-area.header-style-two .top-header-area ul {
@@ -26,9 +27,9 @@ Header Area Style
   float: right;
 }
 
-.header-area.header-style-three .top-header-area {
+/* .header-area.header-style-three .top-header-area {
   background-color: var(--heading-color);
-}
+} */
 
 .header-area.header-style-three .top-header-area ul {
   float: initial;
@@ -229,7 +230,7 @@ Navbar Area Style
   width: 100%;
   z-index: 999;
   position: fixed !important;
-  background-color: #111111 !important;
+  background-color: #6c5c34 !important;
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
           animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
@@ -265,7 +266,8 @@ Navbar Area Style
 }
 
 .navbar-area.navbar-area-style-two .desktop-nav .navbar .others-options ul li a .count {
-  background-color: var(--heading-color);
+  /* background-color: var(--heading-color); */
+  background-color: red;
 }
 
 .navbar-area.navbar-area-style-three .desktop-nav {
@@ -769,7 +771,8 @@ Others Option For Responsive Area Style
 .others-option-for-responsive .others-options {
   position: relative;
   top: 0;
-  background-color: var(--heading-color);
+  /* background-color: var(--heading-color); */
+  background-color: red;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -855,7 +858,8 @@ Navbar Responsive Area Style
 /* Mobile and iPad Navbar */
 @media only screen and (max-width: 991px) {
   .navbar-area {
-    background-color: var(--heading-color);
+    /* background-color: var(--heading-color); */
+    background-color: red;
     -webkit-box-shadow: var(--box-shadow);
             box-shadow: var(--box-shadow);
     padding-top: 15px;
