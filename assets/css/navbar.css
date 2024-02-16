@@ -15,8 +15,8 @@ Header Area Style
 }
 
 .header-area.header-style-two .top-header-area {
-  /* background-color: var(--heading-color); */
-  background-color: red;
+  background-color: var(--heading-color);
+  /* background-color: red; */
 }
 
 .header-area.header-style-two .top-header-area ul {
@@ -266,8 +266,8 @@ Navbar Area Style
 }
 
 .navbar-area.navbar-area-style-two .desktop-nav .navbar .others-options ul li a .count {
-  /* background-color: var(--heading-color); */
-  background-color: red;
+  background-color: var(--heading-color);
+  /* background-color: red; */
 }
 
 .navbar-area.navbar-area-style-three .desktop-nav {
@@ -771,8 +771,8 @@ Others Option For Responsive Area Style
 .others-option-for-responsive .others-options {
   position: relative;
   top: 0;
-  /* background-color: var(--heading-color); */
-  background-color: red;
+  background-color: var(--heading-color);
+  /* background-color: red; */
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -858,8 +858,8 @@ Navbar Responsive Area Style
 /* Mobile and iPad Navbar */
 @media only screen and (max-width: 991px) {
   .navbar-area {
-    /* background-color: var(--heading-color); */
-    background-color: red;
+    background-color: var(--heading-color);
+    /* background-color: red; */
     -webkit-box-shadow: var(--box-shadow);
             box-shadow: var(--box-shadow);
     padding-top: 15px;
