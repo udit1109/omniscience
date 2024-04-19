@@ -230,7 +230,7 @@ Navbar Area Style
   width: 100%;
   z-index: 999;
   position: fixed !important;
-  background-color: #6c5c34 !important;
+  background-color: #111 !important;
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
           animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }

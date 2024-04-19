@@ -55,9 +55,9 @@ Default Style
   --paragraph-font-family: 'Roboto', sans-serif;
   --body-font-family: 'Barlow', sans-serif;
   --body-color: #646464;
-  --main-color: #d0ac47;
-  --optional-color: #ffcc00;
-  --heading-color: #111111;
+  --main-color: #ffa600;
+  --optional-color: #8f8367;
+  --heading-color: #080808;
   --white-color: #ffffff;
   --black-color: #000000;
   --font-size: 16px;
@@ -73,7 +73,7 @@ body {
 }
 
 body.body-bg-f7f6f1 {
-  background-color: #f7f6f1;
+  background-color: #F4EBC3;
 }
 
 a {
@@ -276,7 +276,7 @@ Default Btn Area Style*/
 .default-btn i {
   position: relative;
   top: 2px;
-  font-size: 14px !important;
+  font-size: 13px !important;
   color: var(--white-color) !important;
   margin-left: 5px;
 }
@@ -641,13 +641,15 @@ hero Slider Area Style
 }
 
 .banner-area {
-  background-image: url(../../assets/images/banner-bg.jpg);
+  /* background-image: url(../../assets/images/banner-bg.jpg); */
+  background-image: url(../../assets/images/constro.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
   position: relative;
   z-index: 1;
+  background-attachment: fixed;
 }
 
 .banner-area::before {
@@ -661,6 +663,7 @@ hero Slider Area Style
   background-color: var(--heading-color);
   opacity: 0.6;
   z-index: -1;
+  border-radius: 2%;
 }
 
 .banner-area .border-text {
@@ -683,7 +686,7 @@ hero Slider Area Style
 }
 
 .banner-slider-content h1 {
-  font-size: 100px;
+  font-size: 90px;
   color: var(--white-color);
   margin-bottom: 30px;
   line-height: 1.1;
@@ -870,6 +873,7 @@ About Area Style
 
 .about-content .default-btn {
   margin-top: 20px;
+  
 }
 
 /*
@@ -881,6 +885,8 @@ Services Area Style
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  width: 90%;
+  margin: 10px;
   position: relative;
   z-index: 1;
   overflow: hidden;
