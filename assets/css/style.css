@@ -51,16 +51,20 @@ Default Style
 ============================*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Passion+One:wght@400;700;900&display=swap');
+
 :root {
   --paragraph-font-family: 'Roboto', sans-serif;
   --body-font-family: 'Barlow', sans-serif;
   --body-color: #646464;
-  --main-color: #ffa600;
-  --optional-color: #8f8367;
+  --main-color: #05aff2;
+  --optional-color: #ffa805;
   --heading-color: #080808;
   --white-color: #ffffff;
   --black-color: #000000;
-  --font-size: 16px;
+   --font-size: 16px;
+   --anima-silde:white;
+
   --transition: all ease .5s;
   --border-radius: 4px;
   --box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
@@ -271,6 +275,7 @@ Default Btn Area Style*/
   display: inline-table;
   padding: 15px 35px;
   background-color: var(--main-color);
+  border-radius: 25px;
 }
 
 .default-btn i {
@@ -283,6 +288,7 @@ Default Btn Area Style*/
 
 .default-btn.black-btn {
   background-color: var(--heading-color);
+
 }
 
 .default-btn::after {
@@ -292,22 +298,23 @@ Default Btn Area Style*/
   left: 0;
   width: 100%;
   height: 0;
-  background-color: var(--optional-color);
+  background-color: #404040;
   z-index: -1;
   -webkit-transition: var(--transition);
   transition: var(--transition);
+
 }
 
 .default-btn:hover {
   color: var(--white-color);
-}
+} 
 
 .default-btn:hover::after {
   height: 100%;
   bottom: auto;
   top: 0;
-  -webkit-animation: fadeInUp 1s linear;
-          animation: fadeInUp 1s linear;
+  -webkit-animation: fadeInUp 0.1s linear;
+          animation: fadeInUp 0.1s linear;
 }
 
 /*
@@ -469,6 +476,7 @@ hero Slider Area Style
   bottom: 100px;
   right: 0;
   margin: 0;
+  
 }
 
 .hero-slider-area .owl-theme .owl-nav .owl-prev i, .hero-slider-area .owl-theme .owl-nav .owl-next i {
@@ -631,6 +639,7 @@ hero Slider Area Style
   font-size: 70px;
   font-weight: 900;
   color: var(--white-color);
+
 }
 
 .hero-slider-item .hero-slider-content p {
@@ -638,11 +647,11 @@ hero Slider Area Style
   font-size: 16px;
   color: var(--white-color);
   max-width: 700px;
+  
 }
 
 .banner-area {
-  /* background-image: url(../../assets/images/banner-bg.jpg); */
-  background-image: url(../../assets/images/constro.jpg);
+   background-image: url(../../assets/images/banner-bg.jpg); 
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -660,15 +669,15 @@ hero Slider Area Style
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--heading-color);
-  opacity: 0.6;
+  background: rgb(255,255,255);
+  background: linear-gradient(241deg, rgba(0, 0, 0, 0) 3%, rgba(72,168,226,0.036852240896358524) 37%, rgba(71,165,221,0.053658963585434205) 58%, rgba(17,17,17,1) 80%);
+  opacity: 0.8;
   z-index: -1;
-  border-radius: 2%;
 }
 
 .banner-area .border-text {
   color: transparent;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -686,10 +695,12 @@ hero Slider Area Style
 }
 
 .banner-slider-content h1 {
-  font-size: 90px;
+  font-size: 80px;
   color: var(--white-color);
   margin-bottom: 30px;
   line-height: 1.1;
+  font-family: "Orbitron", sans-serif;
+  text-shadow: 4px 5px 8px rgba(0, 0, 0, 1);
 }
 
 .banner-slider-content p {
@@ -697,6 +708,7 @@ hero Slider Area Style
   margin: auto;
   margin-bottom: 30px;
   color: var(--white-color);
+  
 }
 
 /*
@@ -719,10 +731,12 @@ Partner Area Style
   -webkit-transition: var(--transition);
   transition: var(--transition);
   color: var(--heading-color);
+  
 }
 
 .partner-area .owl-theme .owl-nav .owl-prev:hover i, .partner-area .owl-theme .owl-nav .owl-next:hover i {
   color: var(--main-color);
+  
 }
 
 .partner-area .owl-theme .owl-nav .owl-next {
@@ -948,6 +962,7 @@ Services Area Style
   margin: 0;
 }
 
+
 .services-area .owl-theme .owl-nav .owl-prev, .services-area .owl-theme .owl-nav .owl-next {
   background: transparent;
   position: absolute;
@@ -1026,7 +1041,6 @@ Services Area Style
   left: 0;
   width: 100%;
   height: 0;
-  background-color: var(--heading-color);
   z-index: -1;
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -1059,14 +1073,16 @@ Services Area Style
 .single-services-card:hover {
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
+
 }
 
 .single-services-card:hover h3 a {
-  color: var(--optional-color);
+  color: var(--black-color);
+  
 }
 
 .single-services-card:hover .read-more {
-  color: var(--optional-color);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .single-services-card:hover::after {
@@ -1075,6 +1091,7 @@ Services Area Style
   top: 0;
   -webkit-animation: fadeInUp 1s linear;
           animation: fadeInUp 1s linear;
+
 }
 
 .single-services-card.style-two {
@@ -1508,7 +1525,9 @@ Counter Area Style
 Join Our Team Area Style
 ================================*/
 .join-our-team-area {
-  background-image: url(../../assets/images/join-bg.jpg);
+  background-image: url(../../assets/images/products/COFFE.jpeg);
+  background-color: #111;
+  opacity: 0.8;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1527,7 +1546,7 @@ Join Our Team Area Style
 }
 
 .join-our-team-content {
-  background-color: rgba(219, 0, 27, 0.9);
+  background-color: rgba(225, 0, 27, 0.9);
   padding: 100px;
   display: inline-block;
   max-width: 750px;
@@ -1538,7 +1557,7 @@ Join Our Team Area Style
   position: relative;
   font-weight: 600;
   font-size: 16px;
-  color: var(--optional-color);
+  color: rgba(253, 253, 253, 0.867);
   padding-left: 70px;
   margin-bottom: 15px;
   display: inline-block;
@@ -1551,7 +1570,7 @@ Join Our Team Area Style
   left: 0;
   width: 60px;
   height: 2px;
-  background-color: var(--optional-color);
+  background-color:var(--white-color);
 }
 
 .join-our-team-content h2 {
@@ -1562,7 +1581,7 @@ Join Our Team Area Style
 
 .join-our-team-content .default-btn {
   margin-top: 10px;
-  background-color: var(--heading-color);
+  background-color:rgb(54, 40, 0);
 }
 
 /*
@@ -2433,7 +2452,8 @@ Services Area Style
 }
 
 .single-fetcher-services {
-  background-color: var(--heading-color);
+  background-color: var(--main-color);
+  border-radius: 25px;
   padding: 30px;
   padding-bottom: 27px;
   margin-bottom: 30px;
@@ -2442,6 +2462,12 @@ Services Area Style
   -webkit-transition: var(--transition);
   transition: var(--transition);
   overflow: hidden;
+  
+}
+.single-fetcher-services:hover{
+  border: 1px solid black;
+  box-shadow: rgba(37, 147, 250, 0.301) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 }
 
 .single-fetcher-services::after {
@@ -2451,10 +2477,11 @@ Services Area Style
   left: 0;
   width: 100%;
   height: 0;
-  background-color: var(--main-color);
+  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
   z-index: -1;
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  
 }
 
 .single-fetcher-services img {
@@ -2495,7 +2522,7 @@ Services Area Style
 }
 
 .single-fetcher-services:hover span {
-  color: #d83347;
+  color: #000000;
 }
 
 .single-fetcher-services:hover::after {
