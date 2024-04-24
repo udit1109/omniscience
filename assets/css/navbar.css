@@ -228,10 +228,10 @@ Navbar Area Style
   top: 0;
   left: 0;
   width: 100%;
-  height: 19%;
+  height: 20%;
   z-index: 999;
   position: fixed !important;
-  background-color: #0050a7 !important;
+  background-color: #111 !important;
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
           animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }

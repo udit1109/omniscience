@@ -2237,7 +2237,7 @@ Footer Area Style
 }
 
 .copy-right-area {
-  background-color: var(--main-color);
+  background-color:#111;
   padding-top: 10px;
   padding-bottom: 10px;
 }
