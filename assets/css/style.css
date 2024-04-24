@@ -1026,6 +1026,7 @@ Services Area Style
   overflow: hidden;
   z-index: 1;
   margin-bottom: 30px;
+  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
 }
 
 .single-services-card .services-shape {
@@ -1475,7 +1476,7 @@ Latest Area Style
 Counter Area Style
 ================================*/
 .counter-area {
-  background-image: url(../../assets/images/counter-bg.jpg);
+  background-image: url(../../assets/images/counting.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
