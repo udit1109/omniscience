@@ -1194,8 +1194,8 @@ Video Area Style
   position: relative;
   z-index: 1;
   padding-top: 200px;
-  padding-bottom: 300px;
-  margin-bottom:200px ;
+  padding-bottom: 200px;
+  margin-bottom:80px ;
 }
 
 .video-bg::before {
