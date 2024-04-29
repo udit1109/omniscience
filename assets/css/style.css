@@ -138,7 +138,9 @@ p:last-child {
 img {
   max-width: 100%;
   height: auto;
+  /* width: 230px; */
 }
+
 
 .form-control {
   height: 55px;
@@ -899,8 +901,8 @@ Services Area Style
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  width: 90%;
-  margin: 10px;
+  width: 100%;
+  /* margin: 10px; */
   position: relative;
   z-index: 1;
   overflow: hidden;
