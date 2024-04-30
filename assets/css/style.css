@@ -656,7 +656,8 @@ hero Slider Area Style
    background-image: url(../../assets/images/banner-bg.jpg); 
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
+  background-size: 100% cover;
   height: 800px;
   position: relative;
   z-index: 1;
