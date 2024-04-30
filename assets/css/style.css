@@ -2528,7 +2528,7 @@ background: linear-gradient(180deg, rgba(94,89,56,1) 19%, rgba(58,57,34,1) 55%, 
   top: 8px;
   right: 20px;
   line-height: 1;
-  color: #343434;
+  color: white;
   -webkit-transition: var(--transition);
   transition: var(--transition);
   font-family: var(--paragraph-font-family);
