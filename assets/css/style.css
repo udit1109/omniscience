@@ -49,6 +49,16 @@ Every Pages Style Area
 /*
 Default Style
 ============================*/
+@font-face {
+  font-family: "Mastro";
+  /* src: url('../../assets/fonts/MastroSans-Regular.ttf');  */
+  src: url('../../assets/fonts/MastroSans-Light.ttf'); 
+  
+}
+
+
+
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Passion+One:wght@400;700;900&display=swap');
@@ -57,7 +67,7 @@ Default Style
   --paragraph-font-family: 'Roboto', sans-serif;
   --body-font-family: 'Barlow', sans-serif;
   --body-color: #646464;
-  --main-color: #003d28;
+  --main-color: #808080;
   --optional-color: #ffa805;
   --heading-color: #080808;
   --white-color: #ffffff;
@@ -707,7 +717,8 @@ hero Slider Area Style
   color: var(--white-color);
   margin-bottom: 30px;
   line-height: 1.1;
-  font-family:"farro",sans-serif;
+  /* font-family:"farro",sans-serif; */
+  font-family: 'Mastro';
   text-shadow: 4px 5px 8px rgba(0, 0, 0, 1);
 }
 
@@ -1034,7 +1045,8 @@ Services Area Style
   overflow: hidden;
   z-index: 1;
   margin-bottom: 30px;
-  background: radial-gradient(circle at -1% 57.5%, rgb(19, 170, 82) 0%, rgb(0, 102, 43) 90%);
+  /* background: radial-gradient(circle at -1% 57.5%, rgb(19, 170, 82) 0%, rgb(0, 102, 43) 90%); */
+  background: var(--main-color);;
 
 }
 

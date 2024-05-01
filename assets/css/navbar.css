@@ -231,7 +231,8 @@ Navbar Area Style
  
   z-index: 999;
   position: fixed !important;
-  background-color: #111 !important;
+  /* background-color: #111 !important; */
+  background-color: var(--main-color)!important;
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
           animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
@@ -1032,7 +1033,8 @@ Navbar Responsive Area Style
     padding-top: 13px;
   }
   .navbar-area.is-sticky {
-    background-color: var(--black-color) !important;
+    /* background-color: var(--black-color) !important; */
+    background-color: var(--main-color) !important;
   }
   .top-header-area ul li {
     font-size: 14px;
