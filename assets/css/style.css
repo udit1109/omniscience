@@ -2501,7 +2501,8 @@ Services Area Style
   width: 100%;
   height: 0;
   /* background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%); */
-  background: radial-gradient(circle at -1% 57.5%, rgb(19, 170, 82) 0%, rgb(0, 102, 43) 90%);
+  background: rgb(249,242,149);
+  background: linear-gradient(67deg, rgba(249,242,149,1) 0%, rgba(224,170,62,1) 52%, rgba(250,243,152,1) 76%, rgba(184,138,68,1) 88%);
 
   z-index: -1;
   -webkit-transition: var(--transition);
