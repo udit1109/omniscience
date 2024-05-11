@@ -872,7 +872,7 @@ Navbar Responsive Area Style
     display: none;
   }
   .navbar-area.is-sticky {
-    background-color: var(--white-color) !important;
+    background-color: #111 !important;
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -1034,7 +1034,7 @@ Navbar Responsive Area Style
   }
   .navbar-area.is-sticky {
     /* background-color: var(--black-color) !important; */
-    background-color: var(--main-color) !important;
+    background-color: #111 !important;
   }
   .top-header-area ul li {
     font-size: 14px;
