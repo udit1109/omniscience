@@ -364,6 +364,7 @@ Section Title Area Style*/
   padding-left: 70px;
   margin-bottom: 15px;
   display: inline-block;
+  
 }
 
 .section-title .top-title::before {
@@ -373,7 +374,7 @@ Section Title Area Style*/
   left: 0;
   width: 60px;
   height: 2px;
-  background-color: var(--main-color);
+  background-color: #e0aa3e;
 }
 
 .section-title h2 {
@@ -896,7 +897,7 @@ About Area Style
   left: 0;
   width: 60px;
   height: 2px;
-  background-color: var(--main-color);
+  background-color: #e0aa3e;
 }
 
 .about-content h2 {
@@ -1324,7 +1325,7 @@ Latest Area Style
   left: 0;
   width: 60px;
   height: 2px;
-  background-color: var(--main-color);
+  background-color: #e0aa3e;
 }
 
 .latest-project-content h2 {
@@ -1797,7 +1798,7 @@ Testimonial Area Style
   left: 0;
   width: 60px;
   height: 2px;
-  background-color: var(--main-color);
+  background-color: #e0aa3e;
 }
 
 .testimonial-content h2 {
@@ -1884,7 +1885,7 @@ Get A Quote Area Style
   left: 0;
   width: 60px;
   height: 2px;
-  background-color: var(--optional-color);
+  background-color: #e0aa3e;
 }
 
 .get-quote-from h2 {
@@ -1991,7 +1992,7 @@ Latest News Area Style
   left: 0;
   width: 60px;
   height: 2px;
-  background-color: var(--main-color);
+  background-color: #e0aa3e;
 }
 
 .blog-title-content h2 {
@@ -2595,7 +2596,7 @@ Certified Area Style
   left: 0;
   width: 60px;
   height: 2px;
-  background-color: var(--main-color);
+  background-color: #e0aa3e;
 }
 
 .certified-content h2 {
@@ -5821,11 +5822,15 @@ Go Top Style*/
   visibility: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  background: rgb(249,242,149);
+background: linear-gradient(67deg, rgba(249,242,149,1) 0%, rgba(224,170,62,1) 44%, rgba(250,243,152,1) 72%, rgba(184,138,68,1) 90%);
 }
 
 .go-top:hover {
   color: var(--white-color);
   background-color: var(--main-color);
+  background: rgb(249,242,149);
+background: linear-gradient(67deg, rgba(249,242,149,1) 0%, rgba(224,170,62,1) 44%, rgba(250,243,152,1) 72%, rgba(184,138,68,1) 90%);
 }
 
 .go-top:hover::before {
