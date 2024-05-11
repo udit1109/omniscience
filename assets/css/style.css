@@ -2124,7 +2124,8 @@ Footer Area Style
 .con{
   padding-top:12px ;
   margin: 12px;
-  width: 300px;
+  width: 400px;
+  height: 0px;
 }
 
 
