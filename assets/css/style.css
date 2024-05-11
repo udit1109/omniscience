@@ -939,7 +939,7 @@ Services Area Style
 
 .services-area.style-two .section-title {
   text-align: left;
-  max-width: 500px;
+  max-width: 600px;
   margin-left: 50px;
 }
 
@@ -1046,7 +1046,8 @@ Services Area Style
   z-index: 1;
   margin-bottom: 30px;
   /* background: radial-gradient(circle at -1% 57.5%, rgb(19, 170, 82) 0%, rgb(0, 102, 43) 90%); */
-  background: var(--main-color);;
+  background: var(--main-color);
+  border-radius: 16px;
 
 }
 
@@ -1064,8 +1065,11 @@ Services Area Style
   width: 100%;
   height: 0;
   z-index: -1;
+  background: rgb(249,242,149);
+background: linear-gradient(67deg, rgba(249,242,149,1) 0%, rgba(224,170,62,1) 52%, rgba(250,243,152,1) 76%, rgba(184,138,68,1) 88%);
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  
 }
 
 .single-services-card img {
@@ -1095,15 +1099,18 @@ Services Area Style
 .single-services-card:hover {
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
+          
 
 }
 
 .single-services-card:hover h3 a {
+
   color: var(--black-color);
   
 }
 
 .single-services-card:hover .read-more {
+  
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -2113,6 +2120,14 @@ Footer Area Style
   z-index: 1;
 }
 
+
+.con{
+  padding-top:12px ;
+  margin: 12px;
+  width: 300px;
+}
+
+
 .footer-area::before {
   content: "";
   position: absolute;
@@ -2488,8 +2503,7 @@ Services Area Style
   
 }
 .single-fetcher-services:hover{
-  border: 1px solid black;
-  box-shadow: rgba(37, 147, 250, 0.301) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow:rgba(249,242,149,1) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
 
 }
 
