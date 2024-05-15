@@ -2131,13 +2131,10 @@ Footer Area Style
 
 
 
-
-
-.con{
-  padding-top:12px ;
-  margin: 12px;
-  width: 400px;
-  height: 80px;
+@media only screen and (max-width:575px) {
+  .column .partner-item{
+    width: 50px;
+  }
 }
 
 
