@@ -2132,9 +2132,27 @@ Footer Area Style
 
 
 @media only screen and (max-width:575px) {
-  .column .partner-item{
+
+  .partner-item {
     width: 50px;
+    &img{
+      width: 50px;
+      aspect-ratio: 1;
+    }
   }
+  .owl-item.active{
+    max-width: 60px;
+  }
+ 
+  .owl-stage{
+    width: 200px;
+    margin-right: 0px 20px 0px 0px;
+    display: flex;
+    flex-direction:row ;
+  }
+ .column {
+  width:100px;
+ }
 }
 
 
